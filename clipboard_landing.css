@@ -1,0 +1,361 @@
+@font-face{
+  font-family: "Bai Jamjuree Reg";
+  src: url("Bai_Jamjuree/BaiJamjuree-Regular.ttf") format("TrueType");
+}
+@font-face{
+  font-family: "Bai Jamjuree SBold";
+  src: url("Bai_Jamjuree/BaiJamjuree-SemiBold.ttf") format("TrueType");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Bai Jamjuree Reg";
+  background: white;
+}
+h1, h2, h3{
+  color: hsl(210, 10%, 33%);
+  font-family: "Bai Jamjuree SBold";
+  text-align: center;
+  margin: 50px auto;    
+}
+a{
+    display: block;
+    margin: 25px auto;
+    max-width: 260px;
+    text-align: center;
+  }
+.ios:hover{
+  background: hsl(171, 41%, 61%);
+}
+.mac:hover{
+  background: hsl(233, 96%, 79%);
+} 
+p{
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+  margin: 50px auto;
+}
+.ios, .mac{
+  border-radius: 22px;
+  color: white;
+  font-size: 14px;
+  padding: 12px 50px;
+  text-decoration: none;
+}
+.ios{
+  background: hsl(171, 66%, 44%);
+  box-shadow: 0 2px 2px 1px hsl(170, 50%, 40%);
+}
+.mac{
+  background: hsl(233, 100%, 69%);
+  box-shadow: 0 2px 2px 1px hsl(233, 54%, 44%);
+}
+i{
+  font-size: 30px;
+}
+i:hover{
+  color: hsl(171, 66%, 44%);
+}
+@media only screen and (max-width:600px) {
+  body{
+    background: white url("images/bg-header-mobile.png") no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+  main{
+    width: 100%;
+    height: auto;
+  }
+  header{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  header img{
+    display: block;
+    width: 33%;
+    height: auto;
+    margin: 30px auto;
+  }
+  p{
+    margin-top: -25px;
+  }
+  section {
+    width: 90%;
+    padding: 20px 0;
+    margin: 25px auto;
+  }
+  .one img, .two img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .features .tools img{
+    display: block;
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .companies{
+    margin: 50px auto;
+    padding: 30px 0;
+    margin-bottom: -30px;
+  }
+  .three .companies img{
+    display: block;
+    margin: 50px auto;
+  }
+  .four{
+    margin-bottom: 100px;
+  }
+  footer{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    background: hsl(273, 52%, 96%);
+  }
+  footer img{
+    display: block;
+    width: 50px;
+    height: auto;
+    margin: 30px auto;
+  }
+  footer .f div, footer .f{
+    text-align: center;
+    margin: 20px auto;
+    color: hsl(210, 10%, 33%);
+  }
+  footer .socnet{
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width:900px) {
+    body{
+        background: white url("images/bg-header-mobile.png") no-repeat;
+        background-position: top;
+        background-size: contain;
+      }
+      main{
+        max-width: 600px;
+        height: auto;
+        margin: 0 auto;
+      }
+      header{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 100px 0;
+      }
+      header img{
+        display: block;
+        width: 33%;
+        height: auto;
+        margin: 30px auto;
+      }
+      p{
+        margin-top: -25px;
+      }
+      section {
+        width: 100%;
+        padding: 20px 0;
+        margin: 25px auto;
+      }
+      .one img, .two img{
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .features .tools img{
+        display: block;
+        width: 50px;
+        height: auto;
+        margin: 0 auto;
+      }
+      .companies{
+        margin: 50px auto;
+        padding: 30px 0;
+        margin-bottom: -30px;
+      }
+      .three .companies img{
+        display: block;
+        margin: 50px auto;
+      }
+      .four{
+        margin-bottom: 100px;
+      }
+      footer{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        background: hsl(273, 52%, 96%);
+      }
+      footer img{
+        display: block;
+        width: 50px;
+        height: auto;
+        margin: 30px auto;
+      }
+      footer .f div, footer .f{
+        text-align: center;
+        margin: 20px auto;
+        color: hsl(210, 10%, 33%);
+      }
+      footer .socnet{
+        padding: 10px 100px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+      }   
+}
+@media only screen and (min-width:900px) {
+  body{
+   background: white url("images/bg-header-desktop.png") no-repeat;
+   background-position: top;
+   background-size: contain;
+  }
+  main{
+   max-width: 900px;
+   height: auto;
+   margin: 0 auto;  
+  }
+  header{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  header img{
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 30px auto;
+  }
+  p{
+    margin-top: -25px;
+    max-width: 500px;
+  }
+  header div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 200px;
+  }
+  section {
+    width: 100%;
+    padding: 20px 0;
+    margin: 25px auto;
+  }
+  .one .features{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .one .features img{
+    width: 70%;
+    height: auto;
+    margin-left: -80px;
+  }
+  .one .features div{
+    width: 33%;
+    padding: 0;
+  }
+  .features div h3, .features div p{
+    text-align: left;
+    width: 70%;
+    margin-left: 0;
+  }
+  .two, .three, .four{
+    width: 90%;
+    margin: 100px auto;
+  }
+  .two img{
+    display: block;
+    width: 85%;
+    height: auto;
+    margin: 50px auto;
+  }
+  .three{
+    margin-top: -50px;
+  }
+  .three .features{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .three .features div{
+    width: 33%;
+  }
+  .three .features .tools img{
+    display: block;
+    width: auto;
+    height: 50px;
+    margin: 0 auto;
+  }
+  .three .features .tools h3, .three .features .tools p{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .three .features .tools p{
+    font-size: 13px;
+  }
+  .three .companies{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .three .companies img{
+    display: block;
+    width: auto;
+    max-height: 50%;
+  }
+  .four div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 150px;
+  }
+  footer{
+    width: 100%;
+    height: 150px;
+    padding: 50px 0;
+    background: hsl(273, 52%, 96%);
+    display: flex;
+    align-items: center;
+  }
+  footer img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 40px
+  }
+  footer .f{
+    width: auto;
+    height: 150px;
+    margin: 0 30px ;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  footer .f div, footer .f{
+    text-align: left;
+    color: hsl(210, 10%, 33%);
+  }
+  footer .socnet{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-left: 30px;
+  }   
+}
